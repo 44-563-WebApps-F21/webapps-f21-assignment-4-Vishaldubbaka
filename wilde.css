@@ -25,3 +25,17 @@
 .robertchiltern{
     color: rgb(122, 253, 0);
 }
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+background-color:silver;
+}

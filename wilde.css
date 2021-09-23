@@ -45,3 +45,28 @@ background-color:silver;
     border: 2px solid;
 }
 
+.navigation {
+    width: 100%;
+    background-color:black;
+    overflow: auto;
+}
+.navigation a {
+    float: left;
+    padding: 12px;
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navigation a:hover {
+    background-color:palevioletred;
+}
+.book {
+    background-color:white;
+}
+
+@media screen and (max-width: 500px){
+    .navbar a{
+        float: none;
+        display: block;
+    }
+}
